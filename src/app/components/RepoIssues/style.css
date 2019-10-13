@@ -1,0 +1,33 @@
+.ResultsList {
+  overflow: auto;
+  max-height: 300px;
+  margin-top: 10px;
+}
+
+.ResultItem {
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+.IssuePreview {
+  display: flex;
+  align-items: center;
+}
+
+.IssuePreview > * + * {
+  margin-left: 10px;
+}
+
+.Loading {
+  font-style: italic;
+  padding: 5px;
+  margin: 0 auto;
+}
+
+.Footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 5px;
+  background: #444;
+  color: #fff;
+}
